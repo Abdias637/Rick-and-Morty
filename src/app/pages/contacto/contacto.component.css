@@ -1,0 +1,17 @@
+.contact-container {
+    margin-top: 20px;
+  }
+  
+  .contact-container input {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  .contact-container ul {
+    padding: 0;
+  }
+  
+  .contact-container li {
+    margin: 5px 0;
+  }
+  

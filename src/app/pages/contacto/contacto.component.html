@@ -1,0 +1,10 @@
+<h1>Lista de Contactos</h1>
+<p>Puedes buscar por nombre o correo electrónico.</p>
+
+<div class="contact-container">
+  <input type="text" class="form-control mb-3" placeholder="Buscar..." (input)="actualizarFiltro($event)">
+
+  <ul id="lista-contactos" class="list-group">
+    <!-- La lista de contactos se generará aquí desde TypeScript -->
+  </ul>
+</div>
